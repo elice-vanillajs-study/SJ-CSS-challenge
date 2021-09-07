@@ -1,0 +1,107 @@
+.grid {
+  display: grid;
+  grid-template-columns: 25px 500px 500px 25px;
+  grid-template-rows: 25px 350px 300px 50px 25px;
+  grid-template-areas:
+    "one one one one"
+    "two five seven eight"
+    "three five seven nine"
+    "four five seven nine"
+    "ten ten ten ten";
+}
+
+.one {
+  background-color: white;
+  border: 5px solid peru;
+  grid-area: one;
+  overflow: hidden;
+  text-align: center;
+  color: peru;
+  font-weight: 800;
+}
+
+.two {
+  background-color: peru;
+  grid-area: two;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  line-height: 20px;
+}
+
+.three {
+  background-color: white;
+  border: 5px solid peru;
+  grid-area: three;
+  writing-mode: vertical-rl;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 700;
+  color: peru;
+}
+
+.four {
+  background-color: white;
+  border: 5px solid peru;
+  grid-area: four;
+  font-weight: 700;
+  color: peru;
+  text-align: c;
+}
+
+.five {
+  grid-area: five;
+  width: 500px;
+  height: 700px;
+}
+
+.title {
+  color: white;
+  width: 400px;
+  transform: translate(325px, -500px);
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.seven {
+  background-color: blueviolet;
+  grid-area: seven;
+  width: 500px;
+  height: 700px;
+}
+
+.eight {
+  background-color: rgb(70, 140, 143);
+  border: 5px solid peru;
+  grid-area: eight;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: white;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
+}
+
+.nine {
+  background-color: rgb(70, 140, 143);
+  border: 5px solid peru;
+  grid-area: nine;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: white;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
+}
+
+.ten {
+  background-color: white;
+  border: 5px solid peru;
+  grid-area: ten;
+  color: peru;
+  text-align: center;
+  font-weight: 700;
+}
