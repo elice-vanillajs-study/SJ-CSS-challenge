@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 20px 350px 100px;
+  grid-template-rows: repeat(6, 100px);
+}
+
+.table__tag {
+  writing-mode: vertical-rl;
+  border: 1px solid crimson;
+}
+
+.table__title {
+  border: 1px solid crimson;
+  font-size: 64px;
+  color: crimson;
+}
+
+.table__right {
+  border: 1px solid crimson;
+}
+
+.table__singer {
+  border: 1px solid crimson;
+}
+
+.table__lottery {
+  border: 1px solid crimson;
+}
+
+.line {
+  display: flex;
+  writing-mode: vertical-rl;
+}
+
+.chart__table {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-template-rows: repeat(6, 100px);
+}
+
+.chart__header__list {
+  display: flex;
+  justify-content: space-between;
+  height: 15px;
+  margin: 5px;
+}
+
+.chart__cell__title {
+  border-top: 3px solid black;
+}
