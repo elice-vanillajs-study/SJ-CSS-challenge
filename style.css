@@ -1,3 +1,11 @@
+body {
+  margin: 0px;
+}
+
+p {
+  padding-left: 10px;
+}
+
 .container {
   height: 100vh;
   display: grid;
@@ -16,12 +24,28 @@
     "one one ten ten ten eleven fourteen thirteen thirteen thirteen thirteen";
 }
 
+.boxes {
+  overflow: hidden;
+}
+
 .boxes:first-child {
   grid-area: one;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.first-box__tag {
+  padding: 10px;
+}
+
+.first-box__header {
+  padding: 10px;
+}
+
+.info {
+  padding: 10px;
 }
 
 .first-box__nav {
@@ -31,6 +55,7 @@
 .first-box__nav li {
   border-top: 1px solid black;
   list-style: none;
+  padding: 10px;
 }
 
 .first-box__nav li:last-child {
