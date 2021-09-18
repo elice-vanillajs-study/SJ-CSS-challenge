@@ -1,0 +1,47 @@
+.title {
+  text-align: center;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, minmax(100px, 1fr));
+}
+
+.item:first-child {
+  background-color: red;
+}
+
+.item:nth-child(2) {
+  background-color: orangered;
+}
+.item:nth-child(3) {
+  background-color: tomato;
+}
+.item:nth-child(4) {
+  background-color: orange;
+}
+.item:nth-child(5) {
+  background-color: gold;
+}
+.item:nth-child(6) {
+  background-color: lightgoldenrodyellow;
+}
+.item:nth-child(7) {
+  background-color: lightsalmon;
+}
+.item:nth-child(8) {
+  background-color: lightcoral;
+}
+.item:nth-child(9) {
+  background-color: coral;
+}
+.item:nth-child(10) {
+  background-color: tomato;
+}
+.item:nth-child(11) {
+  background-color: red;
+}
+.item:nth-child(12) {
+  background-color: crimson;
+}
